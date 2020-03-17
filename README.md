@@ -2,8 +2,8 @@
 A Python bot for the Slugfest Discord server
 
 ## External Dependencies
-* python-dotenv 0.12.0 — `pip install python-dotenv`
-* discord.py 1.32 — `pip install discord.py`
+* [**python-dotenv**](https://pypi.org/project/python-dotenv) [![PyPI version](https://badge.fury.io/py/python-dotenv.svg)](https://badge.fury.io/py/python-dotenv) — `pip install python-dotenv==0.12.0`
+* [**discord.py**](https://pypi.org/project/discord.py) [![PyPI version](https://badge.fury.io/py/discord.py.svg)](https://badge.fury.io/py/discord.py) — `pip install discord.py=1.3.2`
 
 ## Usage
 ```
