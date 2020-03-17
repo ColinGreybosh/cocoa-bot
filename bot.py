@@ -175,7 +175,7 @@ if __name__ == '__main__':
         cocoa_db_uri = f'file:{pathname2url(COCOA_DB)}?mode=rwc'
         conn = sqlite3.connect(cocoa_db_uri, uri=True)
         c = conn.cursor()
-        c.execute(f"CREATE TABLE {COCOA_TABLE} (id int, count int)")
+        c.execute(f"CREATE TABLE {COCOA_TABLE} (user_id int, count int)")
         conn.commit()
         conn.close()
 
